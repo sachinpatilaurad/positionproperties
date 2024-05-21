@@ -1,49 +1,55 @@
-*{
+* {
 
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
+
 /* posotion absolute property in css */
 /* position relative property in css */
 
-#car1{
+#car1 {
     height: 100px;
     width: 140px;
     background-color: red;
 
 }
-#car2{
+
+#car2 {
     position: absolute;
     height: 80px;
     width: 120px;
     background-color: rgb(177, 161, 161);
 }
-#car3{
+
+#car3 {
     height: 105px;
     width: 90px;
     background-color: #38a929;
 
 }
+
 /* position relative property in css */
 /* here if we red box as position relative then the yellow box will move relative to parent box that is red box  */
-#box{
+#box {
     position: relative;
     height: 300px;
     width: 300px;
     background-color: red;
 }
-#cube{
+
+#cube {
     top: 87%;
     position: absolute;
     height: 40px;
     width: 40px;
     background-color: yellow;
 }
-/* position fixed is used fix the item indepent on scroll bar*/
 
+/* position fixed is used fix the item indepent on scroll bar*/
